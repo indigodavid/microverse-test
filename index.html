@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #nav-bar {
+        position: fixed;
+        top: 0;
+      }
+      
+      @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+        }
+      }
+      
+      #video {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#form">Form</a>
+        <a class="nav-link" href="#header">Header</a>
+      </nav>
+      
+      <img src="" alt="" id="header-img">
+    </header>
+    <!-- Video -->
+    <video id="video" src="videofile.ogg" autoplay poster="posterimage.jpg">
+      
+    </video>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" placeholder="example@email.com" name="email">
+      <input type="submit" id="submit">
+    </form>
+    
+  </body>
+</html>
