@@ -8,13 +8,13 @@
         position: fixed;
         top: 0;
       }
-      
+
       @media screen and (max-width: 992px) {
         body {
           background-color: blue;
         }
       }
-      
+
       #video {
         display: flex;
       }
@@ -23,22 +23,22 @@
   <body>
     <header id="header">
       <nav id="nav-bar">
+        <a class="nav-link" href="#header">Header</a>
         <a class="nav-link" href="#video">Video</a>
         <a class="nav-link" href="#form">Form</a>
-        <a class="nav-link" href="#header">Header</a>
       </nav>
-      
+
       <img src="https://www.redwolf.com.cy/wp-content/uploads/2017/11/public-logo.jpg" alt="Main Logo" id="header-img">
     </header>
     <!-- Video -->
     <video id="video" src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay poster="posterimage.jpg">
-      
+
     </video>
 
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input type="email" id="email" placeholder="example@email.com" name="email">
       <input type="submit" id="submit">
     </form>
-    
+
   </body>
 </html>
